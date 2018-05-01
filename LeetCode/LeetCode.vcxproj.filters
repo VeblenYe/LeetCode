@@ -13,5 +13,156 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\初级算法——数组">
+      <UniqueIdentifier>{c138dd7b-e9b0-4e9c-99e5-823dcd6b5fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\初级算法——字符串">
+      <UniqueIdentifier>{0a3f285e-8087-4b6a-bbe5-b30c7566cf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\初级算法——链表">
+      <UniqueIdentifier>{894450d9-058e-4b47-aae3-ddba93a506cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\二叉树">
+      <UniqueIdentifier>{d5766dcc-5513-436c-b83d-29a8663996d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\二叉搜索树">
+      <UniqueIdentifier>{5aed184b-3874-4fe8-b94e-8608fb2b0263}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="字符串中的第一个唯一字符.h">
+      <Filter>头文件\初级算法——字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="查找数组中只出现一次的数.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="存在重复.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="加一.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="两个数组的交集Ⅱ.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="两数之和.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="买卖股票的最佳时机Ⅱ.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="旋转数组.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="旋转图像.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="移动零.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="有效的数独.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="有序数组去重问题.h">
+      <Filter>头文件\初级算法——数组</Filter>
+    </ClInclude>
+    <ClInclude Include="颠倒整数.h">
+      <Filter>头文件\初级算法——字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="反转字符串.h">
+      <Filter>头文件\初级算法——字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="反转链表.h">
+      <Filter>头文件\初级算法——链表</Filter>
+    </ClInclude>
+    <ClInclude Include="删除链表的倒数第N个节点.h">
+      <Filter>头文件\初级算法——链表</Filter>
+    </ClInclude>
+    <ClInclude Include="删除链表节点.h">
+      <Filter>头文件\初级算法——链表</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="从前序和中序遍历序列构造二叉树.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="从中序和后序遍历序列构造二叉树.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="对称二叉树.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树的层次遍历.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树的最大深度.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树的最深公共祖先.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树后序遍历.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树前序遍历.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉树中序遍历.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="路径总和.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="每个节点的右向指针Ⅰ.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="每个节点的右向指针Ⅱ.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="序列化和反序列化二叉树.h">
+      <Filter>头文件\二叉树</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉搜索树的最深公共祖先.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="二叉搜索树迭代器.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="将有序数组转换为二叉搜索树.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="平衡二叉树.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="验证二叉搜索树.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="一个数据流中第k大的数.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="在二叉搜索树中插入节点.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="在二叉搜索树中删除节点.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="在二叉搜索树中搜索节点.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="存在重复Ⅲ.h">
+      <Filter>头文件\二叉搜索树</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>头文件\初级算法——链表</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Text.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

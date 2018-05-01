@@ -29,7 +29,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v141</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -115,6 +115,52 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BinarySearchTree.h" />
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="ListNode.h" />
+    <ClInclude Include="一个数据流中第k大的数.h" />
+    <ClInclude Include="两个数组的交集Ⅱ.h" />
+    <ClInclude Include="两数之和.h" />
+    <ClInclude Include="买卖股票的最佳时机Ⅱ.h" />
+    <ClInclude Include="二叉搜索树的最深公共祖先.h" />
+    <ClInclude Include="二叉搜索树迭代器.h" />
+    <ClInclude Include="二叉树中序遍历.h" />
+    <ClInclude Include="二叉树前序遍历.h" />
+    <ClInclude Include="二叉树后序遍历.h" />
+    <ClInclude Include="二叉树的层次遍历.h" />
+    <ClInclude Include="二叉树的最大深度.h" />
+    <ClInclude Include="二叉树的最深公共祖先.h" />
+    <ClInclude Include="从中序和后序遍历序列构造二叉树.h" />
+    <ClInclude Include="从前序和中序遍历序列构造二叉树.h" />
+    <ClInclude Include="删除链表的倒数第N个节点.h" />
+    <ClInclude Include="删除链表节点.h" />
+    <ClInclude Include="加一.h" />
+    <ClInclude Include="反转字符串.h" />
+    <ClInclude Include="反转链表.h" />
+    <ClInclude Include="在二叉搜索树中删除节点.h" />
+    <ClInclude Include="在二叉搜索树中插入节点.h" />
+    <ClInclude Include="在二叉搜索树中搜索节点.h" />
+    <ClInclude Include="字符串中的第一个唯一字符.h" />
+    <ClInclude Include="存在重复.h" />
+    <ClInclude Include="存在重复Ⅲ.h" />
+    <ClInclude Include="对称二叉树.h" />
+    <ClInclude Include="将有序数组转换为二叉搜索树.h" />
+    <ClInclude Include="平衡二叉树.h" />
+    <ClInclude Include="序列化和反序列化二叉树.h" />
+    <ClInclude Include="旋转图像.h" />
+    <ClInclude Include="旋转数组.h" />
+    <ClInclude Include="有序数组去重问题.h" />
+    <ClInclude Include="有效的数独.h" />
+    <ClInclude Include="查找数组中只出现一次的数.h" />
+    <ClInclude Include="每个节点的右向指针Ⅰ.h" />
+    <ClInclude Include="每个节点的右向指针Ⅱ.h" />
+    <ClInclude Include="移动零.h" />
+    <ClInclude Include="路径总和.h" />
+    <ClInclude Include="颠倒整数.h" />
+    <ClInclude Include="验证二叉搜索树.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Text.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
