@@ -159,6 +159,21 @@
     <ClInclude Include="ListNode.h">
       <Filter>头文件\初级算法——链表</Filter>
     </ClInclude>
+    <ClInclude Include="有效的字母异位词.h">
+      <Filter>头文件\初级算法——字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="验证回文字符串.h">
+      <Filter>头文件\初级算法——字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="合并两个有序链表.h">
+      <Filter>头文件\初级算法——链表</Filter>
+    </ClInclude>
+    <ClInclude Include="回文链表.h">
+      <Filter>头文件\初级算法——链表</Filter>
+    </ClInclude>
+    <ClInclude Include="环形链表.h">
+      <Filter>头文件\初级算法——链表</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Text.cpp">

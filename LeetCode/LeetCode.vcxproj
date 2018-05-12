@@ -137,6 +137,8 @@
     <ClInclude Include="加一.h" />
     <ClInclude Include="反转字符串.h" />
     <ClInclude Include="反转链表.h" />
+    <ClInclude Include="合并两个有序链表.h" />
+    <ClInclude Include="回文链表.h" />
     <ClInclude Include="在二叉搜索树中删除节点.h" />
     <ClInclude Include="在二叉搜索树中插入节点.h" />
     <ClInclude Include="在二叉搜索树中搜索节点.h" />
@@ -150,14 +152,17 @@
     <ClInclude Include="旋转图像.h" />
     <ClInclude Include="旋转数组.h" />
     <ClInclude Include="有序数组去重问题.h" />
+    <ClInclude Include="有效的字母异位词.h" />
     <ClInclude Include="有效的数独.h" />
     <ClInclude Include="查找数组中只出现一次的数.h" />
     <ClInclude Include="每个节点的右向指针Ⅰ.h" />
     <ClInclude Include="每个节点的右向指针Ⅱ.h" />
+    <ClInclude Include="环形链表.h" />
     <ClInclude Include="移动零.h" />
     <ClInclude Include="路径总和.h" />
     <ClInclude Include="颠倒整数.h" />
     <ClInclude Include="验证二叉搜索树.h" />
+    <ClInclude Include="验证回文字符串.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Text.cpp" />
