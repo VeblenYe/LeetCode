@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{8D4B2ACF-FDDE-4E08-BC1E-880B30D88976}</ProjectGuid>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -137,28 +137,34 @@
     <ClInclude Include="加一.h" />
     <ClInclude Include="反转字符串.h" />
     <ClInclude Include="反转链表.h" />
+    <ClInclude Include="合并两个有序数组.h" />
     <ClInclude Include="合并两个有序链表.h" />
     <ClInclude Include="回文链表.h" />
     <ClInclude Include="在二叉搜索树中删除节点.h" />
     <ClInclude Include="在二叉搜索树中插入节点.h" />
     <ClInclude Include="在二叉搜索树中搜索节点.h" />
     <ClInclude Include="字符串中的第一个唯一字符.h" />
+    <ClInclude Include="字符串转整数.h" />
     <ClInclude Include="存在重复.h" />
     <ClInclude Include="存在重复Ⅲ.h" />
     <ClInclude Include="对称二叉树.h" />
     <ClInclude Include="将有序数组转换为二叉搜索树.h" />
     <ClInclude Include="平衡二叉树.h" />
     <ClInclude Include="序列化和反序列化二叉树.h" />
+    <ClInclude Include="数数并说.h" />
     <ClInclude Include="旋转图像.h" />
     <ClInclude Include="旋转数组.h" />
+    <ClInclude Include="最长公共前缀.h" />
     <ClInclude Include="有序数组去重问题.h" />
     <ClInclude Include="有效的字母异位词.h" />
     <ClInclude Include="有效的数独.h" />
     <ClInclude Include="查找数组中只出现一次的数.h" />
     <ClInclude Include="每个节点的右向指针Ⅰ.h" />
     <ClInclude Include="每个节点的右向指针Ⅱ.h" />
+    <ClInclude Include="爬楼梯.h" />
     <ClInclude Include="环形链表.h" />
     <ClInclude Include="移动零.h" />
+    <ClInclude Include="第一个错误的版本.h" />
     <ClInclude Include="路径总和.h" />
     <ClInclude Include="颠倒整数.h" />
     <ClInclude Include="验证二叉搜索树.h" />

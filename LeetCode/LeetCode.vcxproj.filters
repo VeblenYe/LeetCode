@@ -28,6 +28,12 @@
     <Filter Include="头文件\二叉搜索树">
       <UniqueIdentifier>{5aed184b-3874-4fe8-b94e-8608fb2b0263}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\初级算法——排序与搜索">
+      <UniqueIdentifier>{e5904d58-98ed-457c-b755-f25036bc3c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\初级算法——动态规划">
+      <UniqueIdentifier>{6149d838-2a5d-406c-aac2-a0c5fd84d5f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="字符串中的第一个唯一字符.h">
@@ -173,6 +179,24 @@
     </ClInclude>
     <ClInclude Include="环形链表.h">
       <Filter>头文件\初级算法——链表</Filter>
+    </ClInclude>
+    <ClInclude Include="合并两个有序数组.h">
+      <Filter>头文件\初级算法——排序与搜索</Filter>
+    </ClInclude>
+    <ClInclude Include="第一个错误的版本.h">
+      <Filter>头文件\初级算法——排序与搜索</Filter>
+    </ClInclude>
+    <ClInclude Include="爬楼梯.h">
+      <Filter>头文件\初级算法——动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="字符串转整数.h">
+      <Filter>头文件\初级算法——字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="数数并说.h">
+      <Filter>头文件\初级算法——字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="最长公共前缀.h">
+      <Filter>头文件\初级算法——字符串</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
