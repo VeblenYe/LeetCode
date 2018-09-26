@@ -34,6 +34,9 @@
     <Filter Include="头文件\初级算法——动态规划">
       <UniqueIdentifier>{6149d838-2a5d-406c-aac2-a0c5fd84d5f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\链表">
+      <UniqueIdentifier>{bfd8cca7-54ee-4a81-9868-ff86969ecee5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="字符串中的第一个唯一字符.h">
@@ -197,6 +200,27 @@
     </ClInclude>
     <ClInclude Include="最长公共前缀.h">
       <Filter>头文件\初级算法——字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="设计链表.h">
+      <Filter>头文件\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="环形链表Ⅱ.h">
+      <Filter>头文件\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="相交链表.h">
+      <Filter>头文件\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="删除链表中的节点.h">
+      <Filter>头文件\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="奇偶链表.h">
+      <Filter>头文件\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="两数相加.h">
+      <Filter>头文件\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="扁平化多级双向链表.h">
+      <Filter>头文件\链表</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -121,6 +121,7 @@
     <ClInclude Include="一个数据流中第k大的数.h" />
     <ClInclude Include="两个数组的交集Ⅱ.h" />
     <ClInclude Include="两数之和.h" />
+    <ClInclude Include="两数相加.h" />
     <ClInclude Include="买卖股票的最佳时机Ⅱ.h" />
     <ClInclude Include="二叉搜索树的最深公共祖先.h" />
     <ClInclude Include="二叉搜索树迭代器.h" />
@@ -132,6 +133,7 @@
     <ClInclude Include="二叉树的最深公共祖先.h" />
     <ClInclude Include="从中序和后序遍历序列构造二叉树.h" />
     <ClInclude Include="从前序和中序遍历序列构造二叉树.h" />
+    <ClInclude Include="删除链表中的节点.h" />
     <ClInclude Include="删除链表的倒数第N个节点.h" />
     <ClInclude Include="删除链表节点.h" />
     <ClInclude Include="加一.h" />
@@ -143,6 +145,7 @@
     <ClInclude Include="在二叉搜索树中删除节点.h" />
     <ClInclude Include="在二叉搜索树中插入节点.h" />
     <ClInclude Include="在二叉搜索树中搜索节点.h" />
+    <ClInclude Include="奇偶链表.h" />
     <ClInclude Include="字符串中的第一个唯一字符.h" />
     <ClInclude Include="字符串转整数.h" />
     <ClInclude Include="存在重复.h" />
@@ -151,6 +154,7 @@
     <ClInclude Include="将有序数组转换为二叉搜索树.h" />
     <ClInclude Include="平衡二叉树.h" />
     <ClInclude Include="序列化和反序列化二叉树.h" />
+    <ClInclude Include="扁平化多级双向链表.h" />
     <ClInclude Include="数数并说.h" />
     <ClInclude Include="旋转图像.h" />
     <ClInclude Include="旋转数组.h" />
@@ -163,8 +167,11 @@
     <ClInclude Include="每个节点的右向指针Ⅱ.h" />
     <ClInclude Include="爬楼梯.h" />
     <ClInclude Include="环形链表.h" />
+    <ClInclude Include="环形链表Ⅱ.h" />
+    <ClInclude Include="相交链表.h" />
     <ClInclude Include="移动零.h" />
     <ClInclude Include="第一个错误的版本.h" />
+    <ClInclude Include="设计链表.h" />
     <ClInclude Include="路径总和.h" />
     <ClInclude Include="颠倒整数.h" />
     <ClInclude Include="验证二叉搜索树.h" />
