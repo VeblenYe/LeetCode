@@ -222,6 +222,12 @@
     <ClInclude Include="扁平化多级双向链表.h">
       <Filter>头文件\链表</Filter>
     </ClInclude>
+    <ClInclude Include="复制带随机指针的链表.h">
+      <Filter>头文件\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="旋转链表.h">
+      <Filter>头文件\链表</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Text.cpp">

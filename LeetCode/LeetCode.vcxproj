@@ -145,6 +145,7 @@
     <ClInclude Include="在二叉搜索树中删除节点.h" />
     <ClInclude Include="在二叉搜索树中插入节点.h" />
     <ClInclude Include="在二叉搜索树中搜索节点.h" />
+    <ClInclude Include="复制带随机指针的链表.h" />
     <ClInclude Include="奇偶链表.h" />
     <ClInclude Include="字符串中的第一个唯一字符.h" />
     <ClInclude Include="字符串转整数.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="数数并说.h" />
     <ClInclude Include="旋转图像.h" />
     <ClInclude Include="旋转数组.h" />
+    <ClInclude Include="旋转链表.h" />
     <ClInclude Include="最长公共前缀.h" />
     <ClInclude Include="有序数组去重问题.h" />
     <ClInclude Include="有效的字母异位词.h" />
