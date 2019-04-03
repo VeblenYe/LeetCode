@@ -228,6 +228,9 @@
     <ClInclude Include="旋转链表.h">
       <Filter>头文件\链表</Filter>
     </ClInclude>
+    <ClInclude Include="三数取中快速排序.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Text.cpp">
