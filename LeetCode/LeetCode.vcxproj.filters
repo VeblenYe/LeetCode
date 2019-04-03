@@ -231,6 +231,15 @@
     <ClInclude Include="三数取中快速排序.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyPow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="x的完全平方根.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="有效的完全平方数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Text.cpp">

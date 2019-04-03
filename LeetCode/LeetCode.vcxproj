@@ -118,6 +118,8 @@
     <ClInclude Include="BinarySearchTree.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="ListNode.h" />
+    <ClInclude Include="MyPow.h" />
+    <ClInclude Include="x的完全平方根.h" />
     <ClInclude Include="一个数据流中第k大的数.h" />
     <ClInclude Include="三数取中快速排序.h" />
     <ClInclude Include="两个数组的交集Ⅱ.h" />
@@ -164,6 +166,7 @@
     <ClInclude Include="最长公共前缀.h" />
     <ClInclude Include="有序数组去重问题.h" />
     <ClInclude Include="有效的字母异位词.h" />
+    <ClInclude Include="有效的完全平方数.h" />
     <ClInclude Include="有效的数独.h" />
     <ClInclude Include="查找数组中只出现一次的数.h" />
     <ClInclude Include="每个节点的右向指针Ⅰ.h" />
