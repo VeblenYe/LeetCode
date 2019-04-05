@@ -240,6 +240,12 @@
     <ClInclude Include="有效的完全平方数.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="罗马数字转整数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="三数之和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Text.cpp">

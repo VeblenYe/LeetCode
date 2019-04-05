@@ -121,6 +121,7 @@
     <ClInclude Include="MyPow.h" />
     <ClInclude Include="x的完全平方根.h" />
     <ClInclude Include="一个数据流中第k大的数.h" />
+    <ClInclude Include="三数之和.h" />
     <ClInclude Include="三数取中快速排序.h" />
     <ClInclude Include="两个数组的交集Ⅱ.h" />
     <ClInclude Include="两数之和.h" />
@@ -177,6 +178,7 @@
     <ClInclude Include="相交链表.h" />
     <ClInclude Include="移动零.h" />
     <ClInclude Include="第一个错误的版本.h" />
+    <ClInclude Include="罗马数字转整数.h" />
     <ClInclude Include="设计链表.h" />
     <ClInclude Include="路径总和.h" />
     <ClInclude Include="颠倒整数.h" />
