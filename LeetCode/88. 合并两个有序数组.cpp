@@ -2,10 +2,7 @@
 /* 合并两个有序数组 */
 
 
-#include <vector>
-
-
-using std::vector;
+#include "LeetCode.h"
 
 /* 思路一，由小到大排序，缺点，需要最后删除末尾的零 */
 

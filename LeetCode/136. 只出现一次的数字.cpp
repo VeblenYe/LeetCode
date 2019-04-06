@@ -4,9 +4,7 @@
 方法为对数组中的每一个数进行异或，则相同的数都会相消为0，最后剩下的那个数即为只出现一次的数*/
 
 
-#include <vector>
-
-using std::vector;
+#include "LeetCode.h"
 
 int singleNumber(vector<int>& nums) {
 

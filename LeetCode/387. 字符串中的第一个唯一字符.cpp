@@ -2,11 +2,7 @@
 
 /* 字符串中的第一个唯一字符 */
 
-#include <string>
-#include <set>
-
-using std::string;
-using std::set;
+#include "LeetCode.h"
 
 /* 思路一，用set记录重复的字符 */
 

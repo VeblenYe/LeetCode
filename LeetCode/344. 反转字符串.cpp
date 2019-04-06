@@ -3,12 +3,7 @@
 /* ·­×ª×Ö·û´® */
 
 
-#include <string>
-#include <algorithm>
-
-
-using std::string;
-using std::reverse;
+#include "LeetCode.h"
 
 
 string reverseString1(string s) {

@@ -4,9 +4,7 @@
 
 #include "BinaryTree.h"
 
-#include <vector>
-
-using std::vector;
+#include "LeetCode.h"
 
 /* 递归版思路与前同 */
 

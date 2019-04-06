@@ -13,21 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\String">
-      <UniqueIdentifier>{d4fd6374-48e7-4417-bff1-3b82f8c9c9cc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\Array">
-      <UniqueIdentifier>{700bd5b6-b1e9-40c2-936f-75cf5ae64e99}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\Linked List">
-      <UniqueIdentifier>{00fb6a0a-f10a-4a9c-a88b-62e9a9f46350}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\Binary Tree">
-      <UniqueIdentifier>{5f120bdf-6239-4479-92e2-4660fe2943c1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\Binary Search Tree">
-      <UniqueIdentifier>{37cc91dd-eedf-424d-841c-ea565e11b004}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="三数取中快速排序.h">
@@ -54,185 +39,238 @@
     <ClInclude Include="7. 整数反转.cpp">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="8. 字符串转整数（atoi）.cpp">
-      <Filter>源文件\String</Filter>
+    <ClInclude Include="ListNode.h">
+      <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="13. 罗马数字转整数.cpp">
-      <Filter>源文件\String</Filter>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="14. 最长公共前缀.cpp">
-      <Filter>源文件\String</Filter>
-    </ClInclude>
-    <ClInclude Include="38. 报数.cpp">
-      <Filter>源文件\String</Filter>
-    </ClInclude>
-    <ClInclude Include="125. 验证回文串.cpp">
-      <Filter>源文件\String</Filter>
-    </ClInclude>
-    <ClInclude Include="1. 两数之和.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="48. 旋转图像.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="15. 三数之和.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="26. 删除排序数组中的重复项.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="66. 加一.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="2. 两数相加.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="19. 删除链表的倒数第N个节点.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="21. 合并两个有序链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="24. 两两交换链表中的节点.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="61. 旋转链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="88. 合并两个有序数组.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="94. 二叉树中序遍历.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="101. 对称二叉树.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="102. 二叉树的层次遍历.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="104. 二叉树的最大深度.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="105. 从前序和中序遍历序列构造二叉树.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="106. 从中序和后序遍历序列构造二叉树.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="110. 平衡二叉树.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="144. 二叉树的前序遍历.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="145. 二叉树的后序遍历.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="108. 将有序数组转换为二叉搜索树.cpp">
-      <Filter>源文件\Binary Search Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="98. 验证二叉搜索树.cpp">
-      <Filter>源文件\Binary Search Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="173. 二叉搜索树迭代器.cpp">
-      <Filter>源文件\Binary Search Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="235. 二叉搜索树的最近公共祖先.cpp">
-      <Filter>源文件\Binary Search Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="236. 二叉树的最近公共祖先.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="450. 删除二叉搜索树中的节点.cpp">
-      <Filter>源文件\Binary Search Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="700. 二叉搜索树中的搜索.cpp">
-      <Filter>源文件\Binary Search Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="701. 二叉搜索树中的插入操作.cpp">
-      <Filter>源文件\Binary Search Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="141. 环形链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="142. 环形链表Ⅱ.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="160. 相交链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="206. 反转链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="203. 移除链表元素.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="138. 复制带随机指针的链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="234. 回文链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="237. 删除链表中的节点.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="328. 奇偶链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="430. 扁平化多级双向链表.cpp">
-      <Filter>源文件\Linked List</Filter>
-    </ClInclude>
-    <ClInclude Include="707. 设计链表.cpp">
-      <Filter>源文件\Linked List</Filter>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="387. 字符串中的第一个唯一字符.cpp">
-      <Filter>源文件\String</Filter>
-    </ClInclude>
-    <ClInclude Include="242. 有效的字母异位词.cpp">
-      <Filter>源文件\String</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="344. 反转字符串.cpp">
-      <Filter>源文件\String</Filter>
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="242. 有效的字母异位词.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="125. 验证回文串.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="38. 报数.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="14. 最长公共前缀.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="13. 罗马数字转整数.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8. 字符串转整数（atoi）.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="707. 设计链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="430. 扁平化多级双向链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="2. 两数相加.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="19. 删除链表的倒数第N个节点.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="21. 合并两个有序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="24. 两两交换链表中的节点.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="61. 旋转链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="138. 复制带随机指针的链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="141. 环形链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="142. 环形链表Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="160. 相交链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="203. 移除链表元素.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="206. 反转链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="234. 回文链表.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="237. 删除链表中的节点.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="328. 奇偶链表.cpp">
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="297. 二叉树的序列化与反序列化.cpp">
-      <Filter>源文件\Binary Tree</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="283. 移动零.cpp">
-      <Filter>源文件\Array</Filter>
+    <ClInclude Include="236. 二叉树的最近公共祖先.cpp">
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="217. 存在重复元素.cpp">
-      <Filter>源文件\Array</Filter>
+    <ClInclude Include="145. 二叉树的后序遍历.cpp">
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="189. 旋转数组.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="122. 买卖股票的最佳时机Ⅱ.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="350. 两个数组的交集Ⅱ.cpp">
-      <Filter>源文件\Array</Filter>
-    </ClInclude>
-    <ClInclude Include="112. 路径总和.cpp">
-      <Filter>源文件\Binary Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="116. 填充每个节点的下一个右侧节点指针.cpp">
-      <Filter>源文件\Binary Tree</Filter>
+    <ClInclude Include="144. 二叉树的前序遍历.cpp">
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="117. 填充每个节点的下一个右侧节点指针Ⅱ.cpp">
-      <Filter>源文件\Binary Tree</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="220. 存在重复元素Ⅲ.cpp">
-      <Filter>源文件\Array</Filter>
+    <ClInclude Include="116. 填充每个节点的下一个右侧节点指针.cpp">
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="36. 有效的数独.cpp">
-      <Filter>源文件\Array</Filter>
+    <ClInclude Include="112. 路径总和.cpp">
+      <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="136. 只出现一次的数字.cpp">
-      <Filter>源文件\Array</Filter>
+    <ClInclude Include="106. 从中序和后序遍历序列构造二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="105. 从前序和中序遍历序列构造二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="104. 二叉树的最大深度.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="102. 二叉树的层次遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="101. 对称二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="94. 二叉树中序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="98. 验证二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="108. 将有序数组转换为二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="110. 平衡二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="173. 二叉搜索树迭代器.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="235. 二叉搜索树的最近公共祖先.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="450. 删除二叉搜索树中的节点.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="700. 二叉搜索树中的搜索.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="701. 二叉搜索树中的插入操作.cpp">
+      <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="703. 数据流中第K大元素.cpp">
-      <Filter>源文件\Binary Search Tree</Filter>
+      <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="1. 两数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="15. 三数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="26. 删除排序数组中的重复项.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="36. 有效的数独.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="48. 旋转图像.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="66. 加一.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="88. 合并两个有序数组.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="122. 买卖股票的最佳时机Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="136. 只出现一次的数字.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="189. 旋转数组.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="217. 存在重复元素.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="220. 存在重复元素Ⅲ.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="283. 移动零.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="350. 两个数组的交集Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3. 无重复字符的最大字串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4. 寻找两个有序数组的中位数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23. 合并K个排序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27. 移除元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28. 实现strStr().cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="121. 买卖股票的最佳时机.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="148. 排序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="169. 求众数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="215. 数组中的第K个最大元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="231. 2的幂.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="240. 搜索二维矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="279. 完全平方数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="622. 设计循环队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

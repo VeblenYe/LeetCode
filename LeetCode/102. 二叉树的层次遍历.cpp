@@ -3,12 +3,7 @@
 
 #include "BinaryTree.h"
 
-#include <vector>
-#include <queue>
-
-using std::vector;
-using std::queue;
-using std::pow;
+#include "LeetCode.h"
 
 /* 利用队列先进先出实现 */
 

@@ -1,9 +1,5 @@
 
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(nullptr) {}
-};
+#include "ListNode.h"
 
 
 /* 两个思路一样，但是自己实现的又臭又长。。 */

@@ -1,5 +1,5 @@
 
-#include <algorithm>
+#include "LeetCode.h"
 
 
 int divide(int dividend, int divisor) {

@@ -1,9 +1,7 @@
 ﻿
 /* 移动零 */
 
-#include <vector>
-
-using std::vector;
+#include "LeetCode.h"
 
 /* 思路一，对于当前的零元素，往后查找到第一个非零元素并与之交换，但时间复杂度过高，最坏为O(n²) */
 

@@ -2,13 +2,7 @@
 
 /* 颠倒整数 */
 
-#include <climits>
-#include <sstream>
-#include <algorithm>
-
-using std::ostringstream;
-using std::reverse;
-using std::stoll;
+#include "LeetCode.h"
 
 /* 自己想的垃圾思路2333333 */
 

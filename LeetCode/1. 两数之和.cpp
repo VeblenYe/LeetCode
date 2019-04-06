@@ -1,12 +1,7 @@
 
 /* 两数之和 */
 
-#include <vector>
-#include <unordered_map>
-
-
-using std::unordered_map;
-using std::vector;
+#include "LeetCode.h"
 
 
 /* 暴力解法，并没有价值 */

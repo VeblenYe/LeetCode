@@ -1,19 +1,19 @@
 
-#include <string>
+#include "LeetCode.h"
 
 
-std::string countAndSay(int n) {
+string countAndSay(int n) {
 	if (n <= 0) return "";
-	std::string res = "1";
+	string res = "1";
 	while (--n) {
-		std::string cur = "";
+		string cur = "";
 		for (int i = 0; i < res.length(); i++) {
 			int count = 1;
 			while (i + 1 < res.length() && res[i] == res[i + 1]) {
 				++count;
 				++i;
 			}
-			cur += std::to_string(count) + res[i];
+			cur += to_string(count) + res[i];
 		}
 		res = cur;
 	}

@@ -1,13 +1,7 @@
 
 /* 存在重复 */
 
-#include <vector>
-#include <algorithm>
-#include <unordered_set>
-
-using std::vector;
-using std::unordered_set;
-using std::sort;
+#include "LeetCode.h"
 
 /* 思路一，我们可以利用set容器内不存在重复元素的特性，将nums中的元素拷贝到set容器中，
 如果set的大小小于nums的size，则存在重复元素，时间复杂度为O(n)，然而只能打败一半的人 */

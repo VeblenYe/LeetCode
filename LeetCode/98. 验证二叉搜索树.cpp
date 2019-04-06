@@ -2,9 +2,7 @@
 
 #include "BinarySearchTree.h"
 
-#include <stack>
-
-using std::stack;
+#include "LeetCode.h"
 
 /* ÑéÖ¤¶þ²æËÑË÷Ê÷ */
 

@@ -1,11 +1,7 @@
 
 #include "BinaryTree.h"
 
-#include <vector>
-#include <stack>
-
-using std::vector;
-using std::stack;
+#include "LeetCode.h"
 
 /* ÖÐÐò±éÀú */
 

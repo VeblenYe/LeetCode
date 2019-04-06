@@ -13,9 +13,7 @@
 
 #include "BinaryTree.h"
 
-#include <algorithm>
-
-using std::max;
+#include "LeetCode.h"
 
 /* вт╣воРио */
 

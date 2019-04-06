@@ -1,8 +1,5 @@
 
-#include <stack>
-
-
-using std::stack;
+#include "LeetCode.h"
 
 
 class Node {

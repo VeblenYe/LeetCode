@@ -1,9 +1,7 @@
 
 /* 旋转图像 */
 
-#include <vector>
-
-using std::vector;
+#include "LeetCode.h"
 
 /* 思路一，一个 n * n 矩阵中，坐标为(i, j)的元素，旋转后坐标为(j, n - i - 1)，
 每次循环四个元素 */

@@ -119,6 +119,10 @@
     <ClInclude Include="69. x的平方根.cpp" />
     <ClInclude Include="703. 数据流中第K大元素.cpp" />
     <ClInclude Include="15. 三数之和.cpp" />
+    <ClInclude Include="BinarySearchTree.h" />
+    <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="LeetCode.h" />
+    <ClInclude Include="ListNode.h" />
     <ClInclude Include="三数取中快速排序.h" />
     <ClInclude Include="24. 两两交换链表中的节点.cpp" />
     <ClInclude Include="350. 两个数组的交集Ⅱ.cpp" />
@@ -183,6 +187,21 @@
     <ClInclude Include="7. 整数反转.cpp" />
     <ClInclude Include="98. 验证二叉搜索树.cpp" />
     <ClInclude Include="125. 验证回文串.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="121. 买卖股票的最佳时机.cpp" />
+    <ClCompile Include="148. 排序链表.cpp" />
+    <ClCompile Include="169. 求众数.cpp" />
+    <ClCompile Include="215. 数组中的第K个最大元素.cpp" />
+    <ClCompile Include="23. 合并K个排序链表.cpp" />
+    <ClCompile Include="231. 2的幂.cpp" />
+    <ClCompile Include="240. 搜索二维矩阵.cpp" />
+    <ClCompile Include="27. 移除元素.cpp" />
+    <ClCompile Include="279. 完全平方数.cpp" />
+    <ClCompile Include="28. 实现strStr().cpp" />
+    <ClCompile Include="3. 无重复字符的最大字串.cpp" />
+    <ClCompile Include="4. 寻找两个有序数组的中位数.cpp" />
+    <ClCompile Include="622. 设计循环队列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

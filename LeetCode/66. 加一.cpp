@@ -1,11 +1,7 @@
 
 /* 加一，自己实现，主要思路，nums[i]位的数就是nums[i]加上进位再对10取余，该位的进位为nums[i]加上进位再除以10 */
 
-#include <vector>
-#include <algorithm>
-
-using std::vector;
-using std::reverse;
+#include "LeetCode.h"
 
 vector<int> plusOne1(vector<int> &nums) {
 	vector<int> result;

@@ -3,15 +3,7 @@
 
 #include "BinaryTree.h"
 
-#include <string>
-#include <queue>
-#include <sstream>
-
-
-using std::string;
-using std::queue;
-using std::istringstream;
-using std::ostringstream;
+#include "LeetCode.h"
 
 
 /* 序列化，BFS，这里用到了平时没怎么用到的ostringstream，顺利解决了int转换为string的问题，并在NULL处添加#来标识 */

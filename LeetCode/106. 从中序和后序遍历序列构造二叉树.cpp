@@ -4,9 +4,7 @@
 
 #include "BinaryTree.h"
 
-#include <vector>
-
-using std::vector;
+#include "LeetCode.h"
 
 /* 递归版思路，我们通过后序遍历的最后一个元素确定当前的根元素，再通过中序遍历划分出左子树和右子树，递归地进行创建 */
 

@@ -2,9 +2,7 @@
 /* 每个节点的右向指针Ⅰ：假设树是完美二叉树 */
 
 #include "BinaryTree.h"
-#include <queue>
-
-using std::queue;
+#include "LeetCode.h"
 
 /* 思路一，自顶而下，层次遍历 */
 

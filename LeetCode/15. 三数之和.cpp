@@ -1,9 +1,5 @@
 
-#include <vector>
-#include <algorithm>
-
-
-using namespace std;
+#include "LeetCode.h"
 
 /*
  * 三数之和，a+b+c = 0 -> a+b = -c

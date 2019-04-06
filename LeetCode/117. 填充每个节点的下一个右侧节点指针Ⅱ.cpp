@@ -2,9 +2,7 @@
 /* 每个节点的右向指针Ⅱ，没有假设 */
 
 #include "BinaryTree.h"
-#include <queue>
-
-using std::queue;
+#include "LeetCode.h"
 
 /* 思路一，还是可以用层次遍历 */
 void connect(TreeNode *root) {

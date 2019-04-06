@@ -1,10 +1,9 @@
 
 
-#include <vector>
-#include <string>
+#include "LeetCode.h"
 
 
-std::string longestCommonPrefix(std::vector<std::string> &strs) {
+string longestCommonPrefix(vector<string> &strs) {
 	if (strs.empty())
 		return "";
 	for (int i = 0, j; i < strs[0].size(); ++i) {

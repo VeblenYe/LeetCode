@@ -2,11 +2,7 @@
 /* 有效的数独 */
 
 
-#include <vector>
-#include <set>
-
-using std::vector;
-using std::set;
+#include "LeetCode.h"
 
 /* 思路，直接检查，没啥其他思路 */
 

@@ -4,12 +4,7 @@
 
 #include "BinarySearchTree.h"
 
-#include <vector>
-#include <stack>
-
-
-using std::vector;
-using std::stack;
+#include "LeetCode.h"
 
 /* 思路一，中序遍历，存入vector */
 

@@ -2,11 +2,7 @@
 /* 旋转数组 */
 /* 第一个版本是自己想出来的，第i个元素右移k为后所在坐标就是(i+k)%n，只需要O(n)的时间，但是需要O(n)的额外空间 */
 
-#include <vector>
-#include <algorithm>
-
-using std::vector;
-using std::reverse;
+#include "LeetCode.h"
 
 void rotate1(vector<int> &nums, int k) {
 	

@@ -3,13 +3,7 @@
 /* 两个数组的交集Ⅱ */
 
 
-#include <vector>
-#include <algorithm>
-#include <set>
-
-using std::vector;
-using std::multiset;
-using std::sort;
+#include "LeetCode.h"
 
 /* 自己想的垃圾思路，把nums1和nums2分别存入multiset中，然后选取两个数组中较小的那个进行遍历（要是能对set遍历应该更好）
 分别查找各自set中相同的元素个数，较少的那一个即是交集，然后从两个set中删除这个元素，继续遍历，时间复杂度应为O(n)，

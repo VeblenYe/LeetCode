@@ -1,10 +1,5 @@
 
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(nullptr) {}
-};
-
+#include "ListNode.h"
 
 /* 记住奇数、偶数的起始节点，再逐步记录要交换的节点，进行交换即可 */
 ListNode* oddEvenList(ListNode* head) {

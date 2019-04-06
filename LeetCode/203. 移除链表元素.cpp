@@ -1,10 +1,5 @@
 
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(nullptr) {}
-};
-
+#include "ListNode.h"
 
 /* 思路，记住当前节点的前驱和后继就容易操作了，注意的是删除头节点的情况 */
 ListNode* removeElements(ListNode* head, int val) {

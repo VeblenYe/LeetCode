@@ -2,10 +2,7 @@
 /* 平衡二叉树 */
 
 #include "BinarySearchTree.h"
-#include <algorithm>
-
-using std::max;
-using std::abs;
+#include "LeetCode.h"
 
 /* 思路，求出当前节点的左右子树深度，如果相差大于一，则返回false，否则继续判断
 左右子树是否各自为平衡二叉树 */

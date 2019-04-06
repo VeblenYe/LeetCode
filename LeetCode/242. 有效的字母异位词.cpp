@@ -1,11 +1,7 @@
 
 /* 有效字母的异位词 */
 
-#include <string>
-#include <algorithm>
-
-using std::string;
-using std::sort;
+#include "LeetCode.h"
 
 /* 思路一，排序后比较是否相等 */
 

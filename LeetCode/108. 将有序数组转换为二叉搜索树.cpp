@@ -3,9 +3,7 @@
 /* 将有序数组转换为高度平衡二叉搜索树 */
 
 #include "BinarySearchTree.h"
-#include <vector>
-
-using std::vector;
+#include "LeetCode.h"
 
 /* 思路，将数组的中位数作为根节点即可 */
 

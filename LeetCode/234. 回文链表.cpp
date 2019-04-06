@@ -3,7 +3,8 @@
 /* 回文链表 */
 
 #include "ListNode.h"
-#include "反转链表.h"
+
+extern ListNode *reverseList(ListNode *);
 
 
 // 取链表中点，反转后半部分，判断是否与前半部分相等

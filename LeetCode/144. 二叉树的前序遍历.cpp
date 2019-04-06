@@ -3,13 +3,7 @@
 #include "BinaryTree.h"
 
 
-#include <vector>
-#include <stack>
-#include <algorithm>
-
-using std::vector;
-using std::stack;
-using std::reverse;
+#include "LeetCode.h"
 
 /* Ç°Ğò±éÀú */
 
