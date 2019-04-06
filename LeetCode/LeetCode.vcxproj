@@ -123,7 +123,6 @@
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="LeetCode.h" />
     <ClInclude Include="ListNode.h" />
-    <ClInclude Include="三数取中快速排序.h" />
     <ClInclude Include="24. 两两交换链表中的节点.cpp" />
     <ClInclude Include="350. 两个数组的交集Ⅱ.cpp" />
     <ClInclude Include="1. 两数之和.cpp" />
