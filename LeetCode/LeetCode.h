@@ -16,5 +16,6 @@
 #include <map>
 
 #include "ListNode.h"
+#include "RandomListNode.h"
 
 using namespace std;

@@ -228,6 +228,9 @@
     <ClInclude Include="LeetCode.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RandomListNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3. 无重复字符的最大字串.cpp">
@@ -267,6 +270,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="622. 设计循环队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="53. 最大子序和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -186,6 +186,7 @@
     <ClInclude Include="7. 整数反转.cpp" />
     <ClInclude Include="98. 验证二叉搜索树.cpp" />
     <ClInclude Include="125. 验证回文串.cpp" />
+    <ClInclude Include="RandomListNode.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="121. 买卖股票的最佳时机.cpp" />
@@ -200,6 +201,7 @@
     <ClCompile Include="28. 实现strStr().cpp" />
     <ClCompile Include="3. 无重复字符的最大字串.cpp" />
     <ClCompile Include="4. 寻找两个有序数组的中位数.cpp" />
+    <ClCompile Include="53. 最大子序和.cpp" />
     <ClCompile Include="622. 设计循环队列.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
