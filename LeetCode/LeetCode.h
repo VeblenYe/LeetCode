@@ -14,6 +14,8 @@
 #include <sstream>
 #include <set>
 #include <map>
+#include <iostream>
+#include <random>
 
 #include "ListNode.h"
 #include "RandomListNode.h"

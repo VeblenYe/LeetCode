@@ -275,5 +275,14 @@
     <ClCompile Include="53. 最大子序和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="5. 最长回文字串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6. Z字形变换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9. 回文数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
