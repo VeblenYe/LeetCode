@@ -1,5 +1,5 @@
-/*
-#include "ListNode.h"
+
+#include "LeetCode.h"
 
 ListNode *merge(ListNode *l, ListNode *r) {
 	auto dummyHead = new ListNode(0);
@@ -43,4 +43,3 @@ ListNode *mergeSort(ListNode *head) {
 ListNode *sortList(ListNode *head) {
 	return head == nullptr ? nullptr : mergeSort(head);
 }
-*/

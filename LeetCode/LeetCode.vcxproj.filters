@@ -284,5 +284,14 @@
     <ClCompile Include="9. 回文数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="10. 正则表达式匹配.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31. 下一个排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35. 搜索插入位置.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
