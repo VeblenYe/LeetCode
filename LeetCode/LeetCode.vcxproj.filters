@@ -293,5 +293,14 @@
     <ClCompile Include="35. 搜索插入位置.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="20. 有效的括号.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11. 盛最多水的元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16. 最接近的三数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

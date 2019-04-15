@@ -2,6 +2,6 @@
 #include "LeetCode.h"
 
 
-bool isMatch(string s, string p) {
-	
+bool isMatch(string s) {
+
 }

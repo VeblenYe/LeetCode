@@ -190,9 +190,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="10. 正则表达式匹配.cpp" />
+    <ClCompile Include="11. 盛最多水的元素.cpp" />
     <ClCompile Include="121. 买卖股票的最佳时机.cpp" />
     <ClCompile Include="148. 排序链表.cpp" />
+    <ClCompile Include="16. 最接近的三数之和.cpp" />
     <ClCompile Include="169. 求众数.cpp" />
+    <ClCompile Include="20. 有效的括号.cpp" />
     <ClCompile Include="215. 数组中的第K个最大元素.cpp" />
     <ClCompile Include="23. 合并K个排序链表.cpp" />
     <ClCompile Include="231. 2的幂.cpp" />
