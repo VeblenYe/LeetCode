@@ -6,5 +6,6 @@ double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
 
 	merge(nums1.begin(), nums1.end(), nums2.begin(), nums2.end(), temp.begin());
 
-	return temp.size() % 2 == 0 ? (temp[(temp.size() - 1) / 2] + temp[(temp.size() + 1) / 2]) / 2.0 : temp[temp.size() / 2];
+	return temp.size() % 2 == 0 ?
+		(temp[(temp.size() - 1) / 2] + temp[(temp.size() + 1) / 2]) / 2.0 : temp[temp.size() / 2];
 }

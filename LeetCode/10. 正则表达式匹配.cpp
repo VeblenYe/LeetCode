@@ -3,5 +3,5 @@
 
 
 bool isMatch(string s) {
-
+	return true;
 }

@@ -302,5 +302,11 @@
     <ClCompile Include="16. 最接近的三数之和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="12. 整数转罗马数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17. 电话号码的字母组合.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

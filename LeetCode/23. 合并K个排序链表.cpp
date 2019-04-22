@@ -1,7 +1,7 @@
 
 #include "LeetCode.h"
 
-
+/*
 ListNode *merge(ListNode *l, ListNode *r) {
 	ListNode *dummyHead = new ListNode(0);
 	ListNode *cur = dummyHead;
@@ -47,3 +47,4 @@ ListNode *mergeKLists(vector<ListNode *> &lists) {
 		ans = merge(ans, lists[i]);
 	return ans;
 }
+*/
