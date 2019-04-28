@@ -197,8 +197,10 @@
     <ClCompile Include="16. 最接近的三数之和.cpp" />
     <ClCompile Include="169. 求众数.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
+    <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="20. 有效的括号.cpp" />
     <ClCompile Include="215. 数组中的第K个最大元素.cpp" />
+    <ClCompile Include="22. 括号生成.cpp" />
     <ClCompile Include="23. 合并K个排序链表.cpp" />
     <ClCompile Include="231. 2的幂.cpp" />
     <ClCompile Include="240. 搜索二维矩阵.cpp" />
