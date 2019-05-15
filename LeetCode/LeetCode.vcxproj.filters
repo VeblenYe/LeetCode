@@ -314,5 +314,8 @@
     <ClCompile Include="22. 括号生成.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="146. LRU缓存机制.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
