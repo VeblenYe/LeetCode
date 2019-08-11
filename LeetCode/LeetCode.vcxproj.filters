@@ -317,5 +317,14 @@
     <ClCompile Include="146. LRU缓存机制.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="198. 打家劫舍.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="384. 打乱数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43. 字符串相乘.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
