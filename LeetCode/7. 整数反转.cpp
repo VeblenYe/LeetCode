@@ -31,10 +31,10 @@ int reverse1(int x) {
 /* 思路二，自己看吧 */
 int reverse2 (int x) {
 	int ans = 0;
-	while (x)
-	{
+	while (x) {
 		int temp = 10 * ans + x % 10;
-		if (temp / 10 != ans) return 0;
+		if (temp / 10 != ans) // 如果溢出，则返回
+			return 0;
 		ans = temp;
 		x /= 10;
 	}

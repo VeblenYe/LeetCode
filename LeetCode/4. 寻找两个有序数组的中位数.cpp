@@ -1,5 +1,10 @@
 
+
 #include "LeetCode.h"
+
+
+// 思路主要是归并
+
 
 double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
 	vector<int> temp(nums1.size() + nums2.size());

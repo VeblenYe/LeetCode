@@ -326,5 +326,11 @@
     <ClCompile Include="43. 字符串相乘.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="415. 字符串相加.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="295. 数据流的中位数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

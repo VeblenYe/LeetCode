@@ -2,6 +2,7 @@
 
 #include "LeetCode.h"
 
+
 int myAtoi1(string str) {
 	if (str.empty()) return 0;
 
