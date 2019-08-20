@@ -332,5 +332,8 @@
     <ClCompile Include="295. 数据流的中位数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="287. 寻找重复数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
