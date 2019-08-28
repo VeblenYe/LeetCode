@@ -335,5 +335,23 @@
     <ClCompile Include="287. 寻找重复数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="82. 删除排序链表中的重复元素Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="153. 寻找旋转排序数组中的最小值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="191. 位1的个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="905. 按奇偶排序数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="74. 搜索二维矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="572. 另一个树的子树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

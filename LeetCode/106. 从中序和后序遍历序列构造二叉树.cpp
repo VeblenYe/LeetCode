@@ -9,7 +9,7 @@
 /* 递归版思路，我们通过后序遍历的最后一个元素确定当前的根元素，再通过中序遍历划分出左子树和右子树，递归地进行创建 */
 
 TreeNode *build(vector<int> &inorder, int b1, int e1, vector<int> &postorder, int b2, int e2) {
-	if (b1 > e1 || b2 > e2) return NULL;
+	if (b1 > e1 || b2 > e2) return nullptr;
 	TreeNode *res = new TreeNode(postorder[e2]);
 	int i = b1;
 	while (inorder[i] != res->val) i++;

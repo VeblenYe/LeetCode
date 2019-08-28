@@ -1,20 +1,23 @@
 
+
+// 乘方运算，主要考虑n为0或1或为负数的情况
+
+
 double MyPow(double x, int n) {
 	if (n == 0)
-		return 1;
+		return 1.0;
 	if (n == 1)
 		return x;
 
-	int t = n / 2;
-	// 主要考虑幂为负数的情况
+	auto t = n / 2;
 	if (n < 0) {
 		x = 1 / x;
 		t = -t;
 	}
 
-	double res = MyPow(x, t);
-	if (n % 2 == 0)
-		return res * res;
-	else
+	auto res = MyPow(x, t);
+	if (n & 0x1)
 		return res * res * x;
+	else
+		return res * res;
 }

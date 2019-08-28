@@ -10,11 +10,11 @@
 
 TreeNode *build(vector<int> &preorder, int preStart, int preEnd,
 	vector<int> &inorder, int inStart, int inEnd) {
-	if (preStart > preEnd || inStart > inEnd) return NULL;
+	if (preStart > preEnd || inStart > inEnd) return nullptr;
 
 	TreeNode *res = new TreeNode(preorder[preStart]);
 	int i = inStart;
-	while (inorder[i] != res->val) i++;
+	while (inorder[i] != res->val) ++i;
 
 	res->left = build(preorder, preStart + 1, preStart + i - inStart, inorder, inStart, i - 1);
 	res->right = build(preorder, preStart + i - inStart + 1, preEnd, inorder, i + 1, inEnd);
