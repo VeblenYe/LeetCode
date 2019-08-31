@@ -353,5 +353,20 @@
     <ClCompile Include="572. 另一个树的子树.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="226. 翻转二叉树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54. 螺旋矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="155. 最小栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="946. 验证栈序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="113. 路径总和Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

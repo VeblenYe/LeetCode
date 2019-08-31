@@ -13,9 +13,9 @@ vector<vector<int>> levelOrder(TreeNode *root) {
 	queue<TreeNode *> qt;
 	auto x = root;
 	qt.push(x);
-	for (int level = 0; !qt.empty(); level++) {
+	for (int level = 0; !qt.empty(); ++level) {
 		result.push_back({});
-		for (int n = qt.size(); n > 0; n--) {	// 第一次计数即为该层所拥有的元素个数
+		for (int n = qt.size(); n > 0; --n) {	// 第一次计数即为该层所拥有的元素个数
 			x = qt.front();
 			result[level].push_back(x->val);
 			qt.pop();

@@ -24,8 +24,7 @@ ListNode *deleteDuplicates(ListNode *head) {
 		if (cur != pre->next) {	// 如果cur确实跳过重复元素，则cur是最后一个重复元素，更新慢指针后继并删除cur
 			pre->next = cur->next;
 			delete cur;
-		}
-		else
+		} else
 			pre = pre->next;	// cur不是重复元素，移动慢指针
 	}
 	return dummy->next;
