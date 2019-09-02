@@ -3,7 +3,7 @@
 
 #include "BinaryTree.h"
 
-/* 自顶而下，子树的和应为总和减去根结点键值的差，不断递归，知道叶节点的键值和差值相等时，即返回true */
+/* 自顶而下，子树的和应为总和减去根结点键值的差，不断递归，直到叶节点的键值和差值相等时，即返回true */
 
 bool hasPathSum(TreeNode *root, int sum) {
 	if (!root) return false;

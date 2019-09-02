@@ -17,11 +17,11 @@ void aux(vector<vector<int>> &path, vector<int> &cur, TreeNode *root, int sum) {
 
 	if (root->left) {
 		aux(path, cur, root->left, sum);	// 到左节点查找路径
-		cur.pop_back();	// 左节点查找完成就弹出左节点
+		cur.pop_back();	// 左节点查找完成就弹出左节点，回溯
 	}
 	if (root->right) {
 		aux(path, cur, root->right, sum);	// 到右节点查找路径
-		cur.pop_back();	// 右节点查找完成就弹出右节点
+		cur.pop_back();	// 右节点查找完成就弹出右节点，回溯
 	}
 	
 }

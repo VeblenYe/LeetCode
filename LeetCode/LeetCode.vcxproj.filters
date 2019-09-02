@@ -368,5 +368,26 @@
     <ClCompile Include="113. 路径总和Ⅱ.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="114. 二叉树展开为链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="109. 有序链表转换二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="449. 序列化和反序列化二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46. 全排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47. 全排列Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39. 组合总数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40. 组合总数Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

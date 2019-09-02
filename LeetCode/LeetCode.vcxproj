@@ -394,11 +394,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="109. 有序链表转换二叉搜索树.cpp" />
     <ClCompile Include="11. 盛最多水的元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="113. 路径总和Ⅱ.cpp" />
+    <ClCompile Include="114. 二叉树展开为链表.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -484,12 +486,17 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="384. 打乱数组.cpp" />
+    <ClCompile Include="39. 组合总数.cpp" />
     <ClCompile Include="4. 寻找两个有序数组的中位数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="40. 组合总数Ⅱ.cpp" />
     <ClCompile Include="415. 字符串相加.cpp" />
     <ClCompile Include="43. 字符串相乘.cpp" />
+    <ClCompile Include="449. 序列化和反序列化二叉搜索树.cpp" />
+    <ClCompile Include="46. 全排列.cpp" />
+    <ClCompile Include="47. 全排列Ⅱ.cpp" />
     <ClCompile Include="5. 最长回文字串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>

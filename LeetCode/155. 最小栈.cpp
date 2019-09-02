@@ -31,6 +31,6 @@ public:
 		return sMin.top();
 	}
 private:
-	stack<int> sData;
-	stack<int> sMin;
+	stack<int> sData;	// 数据栈，保存所有数据
+	stack<int> sMin;	// 最小辅助栈，顶部为当前栈中最小的元素
 };
