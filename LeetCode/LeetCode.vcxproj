@@ -455,6 +455,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="233. 数字1的个数.cpp" />
     <ClCompile Include="240. 搜索二维矩阵.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
@@ -492,6 +493,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="40. 组合总数Ⅱ.cpp" />
+    <ClCompile Include="400. 第N个数字.cpp" />
     <ClCompile Include="415. 字符串相加.cpp" />
     <ClCompile Include="43. 字符串相乘.cpp" />
     <ClCompile Include="449. 序列化和反序列化二叉搜索树.cpp" />

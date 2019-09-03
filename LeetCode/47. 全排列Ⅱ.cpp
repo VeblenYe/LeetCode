@@ -6,6 +6,10 @@
 // 回溯 + 状态重置
 
 
+// 我认为全排列和组合最大的不同是，排序后，组合只需向前（向右）看（否则会出现重复项），所以组合可以只用一个变量标识
+// 而全排列不管有无排序则还需要向后（向左）看，而全排列却需要一个vector来判断
+
+
 void generatePermutation(vector<vector<int>> &per, vector<int> &curPer, vector<int> &nums, vector<bool> &visited) {
 	if (curPer.size() == nums.size()) {
 		per.push_back(curPer);
