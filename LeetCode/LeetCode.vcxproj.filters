@@ -395,5 +395,20 @@
     <ClCompile Include="233. 数字1的个数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="179. 最大数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="62. 不同路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="263. 丑数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="264. 丑数Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49. 字母易位词分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
