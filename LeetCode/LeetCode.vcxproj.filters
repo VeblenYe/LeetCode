@@ -410,5 +410,8 @@
     <ClCompile Include="49. 字母易位词分组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="230. 二叉树中第k小的元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
