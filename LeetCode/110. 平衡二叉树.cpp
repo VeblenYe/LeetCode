@@ -6,21 +6,27 @@
 
 /* 思路，求出当前节点的左右子树深度，如果相差大于一，则返回false，否则继续判断
 左右子树是否各自为平衡二叉树 */
+// 优化，自底向上，每个节点只遍历一次
 
-int height(TreeNode *root) {
-	if (!root) return 0;
+bool aux(TreeNode *root, int &depth) {
+	if (!root) {
+		depth = 0;
+		return true;
+	}
 
-	auto l = height(root->left);
-	auto r = height(root->right);
+	int left, right;
+	if (aux(root->left, left) && aux(root->right, right)) {
+		if (abs(left - right) <= 1) {
+			depth = 1 + max(left, right);
+			return true;
+		}
+	}
 
-	return max(l, r) + 1;
+	return false;
 }
 
 bool isBalanced(TreeNode *root) {
 	if (!root) return true;
-
-	if (abs(height(root->left) - height(root->right)) <= 1
-		&& isBalanced(root->left) && isBalanced(root->right))
-		return true;
-	return false;
+	int depth = 0;
+	return aux(root, depth);
 }
