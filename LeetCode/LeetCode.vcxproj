@@ -515,6 +515,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="54. 螺旋矩阵.cpp" />
+    <ClCompile Include="560. 和为k的子数组.cpp" />
     <ClCompile Include="572. 另一个树的子树.cpp" />
     <ClCompile Include="6. Z字形变换.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -525,8 +526,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="63. 不同路径Ⅱ.cpp" />
     <ClCompile Include="74. 搜索二维矩阵.cpp" />
     <ClCompile Include="82. 删除排序链表中的重复元素Ⅱ.cpp" />
+    <ClCompile Include="877. 石子游戏.cpp" />
     <ClCompile Include="9. 回文数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>

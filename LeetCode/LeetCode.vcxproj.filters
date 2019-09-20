@@ -422,5 +422,14 @@
     <ClCompile Include="225. 用队列实现栈.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="63. 不同路径Ⅱ.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="877. 石子游戏.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="560. 和为k的子数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
